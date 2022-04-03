@@ -1,8 +1,7 @@
 .star {
-    fill: var(--grey);
-  }
-  
-  .checked {
-    fill: var(--yellow);
-  }
-  
+  fill: var(--grey);
+}
+
+.checked {
+  fill: var(--yellow);
+}
