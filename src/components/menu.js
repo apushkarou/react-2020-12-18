@@ -1,10 +1,10 @@
 import React from 'react';
 import Product from './product';
 
-export default function Menu(props) {
+export default function Menu({ menu }) {
   return (
     <div>
-      {props.menu.map((product) => (
+      {menu.map((product) => (
         <Product key={product.id} product={product} />
       ))}
     </div>
